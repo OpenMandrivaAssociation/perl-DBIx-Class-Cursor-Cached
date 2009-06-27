@@ -11,6 +11,7 @@ Url:        http://search.cpan.org/dist/%{upstream_name}
 Source:     http://www.cpan.org/modules/by-module/DBIx/%{upstream_name}-%{version}.tar.gz
 BuildRequires: perl(Cache::FileCache)
 BuildRequires: perl(DBIx::Class)
+BuildRequires: perl(DBD::SQLite)
 BuildRequires: perl(Digest::SHA1)
 BuildRequires: perl(Test::More)
 BuildArch: noarch
