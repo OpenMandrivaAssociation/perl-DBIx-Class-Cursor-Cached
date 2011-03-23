@@ -1,5 +1,5 @@
 %define upstream_name   DBIx-Class-Cursor-Cached
-%define upstream_version    1.0.1
+%define upstream_version    1.001000
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
