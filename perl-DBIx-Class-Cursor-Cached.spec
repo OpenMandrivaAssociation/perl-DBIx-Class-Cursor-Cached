@@ -8,7 +8,7 @@ License:    GPL or Artistic
 Group:      Development/Perl
 Summary:    Cursor class with built-in caching support
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source:     http://www.cpan.org/modules/by-module/DBIx/%{upstream_name}-%{version}.tar.gz
+Source:     http://www.cpan.org/modules/by-module/DBIx/%{upstream_name}-%{upstream_version}.tar.gz
 BuildRequires: perl(Cache::FileCache)
 BuildRequires: perl(DBIx::Class)
 BuildRequires: perl(DBD::SQLite)
