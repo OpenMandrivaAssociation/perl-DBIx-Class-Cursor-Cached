@@ -10,6 +10,7 @@ Summary:	Cursor class with built-in caching support
 Url:		https://search.cpan.org/dist/%{upstream_name}
 Source:		http://www.cpan.org/modules/by-module/DBIx/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Cache::FileCache)
 BuildRequires:	perl(DBIx::Class)
